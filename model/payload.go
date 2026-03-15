@@ -6,9 +6,9 @@ type EncryptRequest struct {
 type EncryptResponse struct {
 	CipherText string `json: "cipher_text"`
 }
-type DecrptRequest struct {
+type DecryptRequest struct {
 	CipherText string `json: "cipher_text"`
 }
-type DecrptResponse struct {
+type DecryptResponse struct {
 	PlainText string `json: "plain_text"`
 }
